@@ -1,0 +1,9 @@
+.max-width {
+  max-width: 1255px;
+  margin: 0  auto;
+  padding: 0 15px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
