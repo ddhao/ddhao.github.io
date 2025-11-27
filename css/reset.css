@@ -9,9 +9,8 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 main, menu, nav, output, ruby, section, summary,
@@ -34,9 +33,6 @@ footer, header, hgroup, main, menu, nav, section {
 }
 body {
 	line-height: 1;
-}
-menu, ol, ul {
-	list-style: none;
 }
 blockquote, q {
 	quotes: none;

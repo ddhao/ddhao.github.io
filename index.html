@@ -21,6 +21,7 @@
     <nav class="max-width">
       <ul class="my-nav">
         <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#solutions">Our Solutions</a></li>
         <li class="nav-item"><a href="#about">About Us</a></li>
         <li class="nav-item"><a href="#">Our Products</a></li>
         <li class="nav-item"><a href="#service">Our Services</a></li>
@@ -84,41 +85,30 @@
         <div class="title">About Orient Energy</div>
         <p>Withover 20 years of hands-on expertise, our team deliversseamless, end-to-end electrical solutions, combining top-tier products,deep technical insight, and unwavering reliability to power your success.</p>
         <div class="title">Discover how we can support your next project</div>
-        <button type="button" class="btn btn-danger">Learn More</button>
+        <button type="button" class="about-btn btn btn-danger">Learn More</button>
       </div>
     </div>
 
-    <div class="about-p1">
+    <div class="about-p1" id="solutions">
       <div class="message-content">
         <div class="title">From Substations to Smart Grids: Orient Energy Powers Progress</div>
         <p><span style="font-weight: bold;">Building the Backbone of Modern Energy: </span>Orient Energy deliversturnkey substation solutions from high-voltage equipment tointelligent automation, ensuring reliability, efficiency, and seamless integration for power networks worldwide. Our expertise spansdesign, supply, and after-sales support, backed by cutting-edge technology and a commitment to operational excellence. We don’t just equip substations. We future-proof them, enabling smarter grids and sustainable energy transitions.Discover how we’re energizing the world’s critical infrastructure.Learn More</p>
         <p>Discover how we’re energizing the world’s critical infrastructure.</p>
-        <button type="button" class="btn btn-danger">Learn More</button>
+        <button type="button" class="solutions-btn btn btn-danger">Learn More</button>
       </div>
       <div class="images-content">
         <img src="./images/产品运行照片C.jpg" width="100%" alt="产品运行照片B">
       </div>
     </div>
     <div class="about-p2"></div>
-    <div class="our-services" id="service">
-      <div class="title">Our Services</div>
-      <div class="small-title">Factory Inspection and Witness Testing</div>
-      <div class="brief">Orient Energy offers factory witness testing and inspection including independent third party vendor assessment, product conformance with specifications, and compliance with industry standards.</div>
-      <div class="service-content">
-        <div class="content-left">
-          <div class="service-title">Service</div>
-          <p><span></span>Electrical and mechanical technical support</p>
-          <p><span></span>Technical training</p>
-          <p><span></span>Equipment inspection and witness testing</p>
-          <p><span></span>Equipment / parts locating and expediting</p>
-          <p><span></span>Equipment appraisals and capital recovery</p>
-        </div>
-        <div class="images">
-          <img src="./images/bald_strong.png" width="100%" alt="产品运行照片C">
-        </div>
+    <div class="about-p1 service" id="service">
+      <div class="images-content">
+        <img src="./images/bald_strong.png" width="100%" alt="产品运行照片B">
       </div>
       <div class="message-content">
-        Proper training offers one of the fastest paybacks for today' s industry. Orient Energy provides a full range of training courses that fulfill the need to provide suitable training for personnel who work with electrical equipment. These programs are available with a standard pre - set agenda or we can prepare a custom seminar tailored to your special needs and interests. We are dedicated to providing the highest level of unbiased technical training designed to help employees become more effective in the operation and planning of their electrical and mechanical system. The employee is therefore able to identify potential problem areas, implement better trouble - shooting techniques, optimize system operation, reduce downtime and contribute to the energy efficiency of the plant. An additional benefit is the awareness of safety issues.
+        <div class="title">From Inspection to Integration: Orient Energy Ensures Excellence at Every Stage</div>
+        <p>We provide turnkey substation solutions,rigorous factory witness testing, andsmart grid automation. All backed by20+ years of expertiseand a commitment to operational excellence. Our services don’t just meet standards; they set them, ensuring reliability, compliance, andfuture-ready performancefor your energy infrastructure.</p>
+        <p><span><a href="./service.html">Explore Our Service</a></span> to see how we can power your next project.</p>
       </div>
     </div>
     <div class="contact-us" id="contact">
@@ -170,7 +160,14 @@
       </div>
     </Footer>
   </div>
-
+  <script>
+    document.querySelector('.about-btn').onclick = function () {
+      window.location = './about.html'
+    }
+    document.querySelector('.solutions-btn').onclick = function () {
+      window.location = './solutions.html'
+    }
+  </script>
   <script src="./js/jquery-3.5.1.min.js"></script>
   <script src="./js/bootstrap.bundle.min.js" ></script>
 </body>
